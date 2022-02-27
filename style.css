@@ -639,6 +639,11 @@ footer .copyright{
     footer .col{
         margin-right: 10px;
     }
+    #page-header{
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 50%;
+    }
 }
 @media (max-width:477px){
     #menu{
@@ -687,5 +692,23 @@ footer .copyright{
     }
     #newsletter .form{
         width: 100%;
+    }
+    #page-header h2{
+        font-size: 5vh;
+        position: absolute;
+        top: 24vh;
+        left: 18px;
+        width: 12%;
+        text-align: center;
+    }
+    #page-header p{
+        font-size: 20px;
+        position: absolute;
+        top: 36vh;
+        left: 4vh;
+        width: 35%;
+        font-weight: 900;
+        color: #054e49;
+        text-align: center;
     }
 }
