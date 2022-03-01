@@ -644,6 +644,15 @@ footer .copyright{
         padding: 0 80px;
         background-position: top 30% right 50%;
     }
+    #prodDetails .single-pro-image{
+        margin-top: 6px;
+    }
+    #prodDetails .single-pro-details{
+        padding-top: 2px;
+    }
+    #prodDetails .single-pro-details h4{
+        padding: 10px 0 10px 0;
+    }
 }
 @media (max-width:477px){
     #menu{
@@ -710,5 +719,9 @@ footer .copyright{
         font-weight: 900;
         color: #054e49;
         text-align: center;
+    }
+    #prodDetails{
+        display: flex;
+        flex-direction: column;
     }
 }
