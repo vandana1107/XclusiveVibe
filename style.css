@@ -724,4 +724,11 @@ footer .copyright{
         display: flex;
         flex-direction: column;
     }
+    #prodDetails .single-pro-image{
+        width: 100%;
+        margin-right: 0;
+    }
+    #prodDetails .single-pro-details{
+        width: 100%;
+    }
 }
