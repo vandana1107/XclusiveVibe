@@ -654,7 +654,7 @@ footer .copyright{
         padding: 10px 0 10px 0;
     }
 }
-@media (max-width:477px){
+@media (max-width:500px){
     #menu{
         padding: 10px 30px;
     }
