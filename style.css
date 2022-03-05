@@ -871,7 +871,7 @@ footer .copyright{
         font-size: 38px;
     }
     h2{
-        font-size: 32px;
+        font-size: 30px;
     }
     .section-p1{
         padding: 20px;
@@ -1002,5 +1002,10 @@ footer .copyright{
     #form-details .people div img{
         padding-top: 10px;
         width: 75px;
+    }
+}
+@media (max-width:320px){
+    #feature{
+        justify-content: center;
     }
 }
